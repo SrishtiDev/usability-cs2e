@@ -48,4 +48,36 @@
     #spl-cont{
         flex-direction: column-reverse;
     }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap:40px;
+    }
+    .link-column {
+        align-items: center;
+    }
+}
+@media screen and (max-width:469px){
+    h1{
+        font-size:2rem;
+    }
+    h2{
+        font-size:1.5rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size:1rem;
+    }
+    :root{
+        --padding-inline-section: 10px;
+    }
+    .feature-card{
+        min-width:100%;
+        margin-block: 20px;
+    }
+    .example-card{
+        width:100%;
+    }
 }
